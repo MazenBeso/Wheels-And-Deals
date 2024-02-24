@@ -394,7 +394,7 @@ footer {
   color: #42b132;
 }
 
-@media screen and (max-width: 391px) {
+@media screen and (max-width: 390px) {
     .main-cars {
         width: 315px;
         padding-top: 25px;
