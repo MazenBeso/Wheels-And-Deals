@@ -437,6 +437,42 @@ footer {
         right: 165px;
 }
     }
+@media screen and (max-width: 391px) {
+    .main-cars {
+        width: 295px;
+        padding-top: 25px;
+    }
+    .shop-now{
+        bottom: 0px;
+        left: 200px;
+    }
+    .tesla{
+        margin-bottom: 25px;
+    }
+    .rimac{
+        margin-left: -38px;
+    }
+    .long-bmw{
+        width: 93%;
+        height: 250px;
+    }
+    .bmw-discount{
+        bottom: 0px;
+        right: 241px;
+    }
+    .bmw-shop-now{
+        bottom: 0;
+        right: 45px;
+    }
+    .rr-discount{
+        bottom: 0;
+        right: 215px;
+    }
+    .rr-shop-now{
+        bottom: 0;
+        right: 45px;
+    }
+}
 
 
 }
