@@ -394,42 +394,6 @@ footer {
   color: #42b132;
 }
 
-@media screen and (max-width: 391px) {
-    .main-cars {
-        width: 295px;
-        padding-top: 25px;
-    }
-    .shop-now{
-        bottom: 0px;
-        left: 200px;
-    }
-    .tesla{
-        margin-bottom: 25px;
-    }
-    .rimac{
-        margin-left: -38px;
-    }
-    .long-bmw{
-        width: 93%;
-        height: 250px;
-    }
-    .bmw-discount{
-        bottom: 0px;
-        right: 241px;
-    }
-    .bmw-shop-now{
-        bottom: 0;
-        right: 45px;
-    }
-    .rr-discount{
-        bottom: 0;
-        right: 215px;
-    }
-    .rr-shop-now{
-        bottom: 0;
-        right: 45px;
-    }
-}
 
 @media screen and (min-width: 640px) {
   .slider_wrapper .splide {
@@ -474,45 +438,6 @@ footer {
 }
     }
 
-@media screen and (max-width: 400px) {
-    form svg {
-        top: 70px;
-        right: 100px;
 
-  .main-cars {
-    width: 320px;
-    padding-top: 25px;
-  }
-  .shop-now{
-        bottom: 0px;
-        left: 210px;
-  }
-  .tesla {
-      margin-bottom: 15px;
-  }
-
-  .long-bmw{
-    height: 300px;
-  }
-
-  .bmw-shop-now{
-        bottom: 0px;
-        right: 17px;
-  }
-.bmw-discount {
-        padding-right: 65px;
-        bottom: 0px;
-        left: 0;
-    }
-    .rr-discount{
-        bottom: 0px;
-        left: 0;
-        padding-right: 65px;
-    }
-    .rr-shop-now{
-        bottom: 0px;
-        right: 15px;
-    }
-}
 }
 
