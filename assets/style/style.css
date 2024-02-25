@@ -394,49 +394,51 @@ footer {
   color: #42b132;
 }
 
+@media screen and (max-width: 340px) {
+  form svg {
+    top: 70px;
+    right: 103px;
+  }
 
-@media screen and (min-width: 640px) {
-  .slider_wrapper .splide {
-    padding: 0 4rem;
+  .tesla {
+    margin-bottom: 15px;
+  }
+
+  .shop-now {
+    bottom: 7px;
+    left: 160px;
+  }
+
+  .main-cars {
+    width: 260px;
+    margin-top: 25px;
+  }
+
+  .long-bmw {
+    height: 230px;
+  }
+
+  .bmw-discount {
+    bottom: 0px;
+    right: 196px;
+  }
+
+  .bmw-shop-now {
+    bottom: 0px;
+    right: 20px;
+  }
+
+  .rr-shop-now {
+    bottom: 0px;
+    right: 20px;
+  }
+
+  .rr-discount {
+    bottom: 0px;
+    right: 165px;
   }
 }
 
-@media screen and (max-width: 340px){
-    form svg {
-        top: 70px;
-        right: 103px;
-    }
-    .tesla {
-        margin-bottom: 15px;
-    }
-    .shop-now {
-        bottom: 7px;
-        left: 160px;
-    }
-    .main-cars {
-        width: 270px;
-        margin-top: 25px;
-    }
-    .long-bmw {
-        height: 230px;
-    }
-    .bmw-discount {
-        bottom: 0px;
-        right: 196px;
-    }
-    .bmw-shop-now {
-        bottom: 0px;
-        right: 20px;
-    }
-    .rr-shop-now {
-        bottom: 0px;
-        right: 20px;
-    }
-    .rr-discount {
-        bottom: 0px;
-        right: 165px;
-}
-    }
 @media screen and (max-width: 391px) {
     .main-cars {
         width: 295px;
@@ -448,9 +450,6 @@ footer {
     }
     .tesla{
         margin-bottom: 25px;
-    }
-    .rimac{
-        margin-left: -38px;
     }
     .long-bmw{
         width: 93%;
@@ -474,6 +473,59 @@ footer {
     }
 }
 
+@media screen and (max-width: 400px) {
+  form svg {
+    top: 70px;
+    right: 100px;
 
+    .main-cars {
+      width: 320px;
+      padding-top: 25px;
+    }
+
+    .shop-now {
+      bottom: 0px;
+      left: 210px;
+    }
+
+    .tesla {
+      margin-bottom: 15px;
+    }
+
+    .long-bmw {
+      height: 300px;
+    }
+
+    .bmw-shop-now {
+      bottom: 0px;
+      right: 17px;
+    }
+
+    .bmw-discount {
+      padding-right: 65px;
+      bottom: 0px;
+      left: 0;
+    }
+
+    .rr-discount {
+      bottom: 0px;
+      left: 0;
+      padding-right: 65px;
+    }
+
+    .rr-shop-now {
+      bottom: 0px;
+      right: 15px;
+    }
+  }
 }
 
+@media screen and (min-width: 640px) {
+  .slider_wrapper .splide {
+    padding: 0 4rem;
+  }
+}
+
+@media screen and (min-width: 970px) {
+  
+}
